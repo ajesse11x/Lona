@@ -4,19 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "commander": "^2.11.0",
     "jszip": "^3.1.4",
     "react": "^15.6.1",
     "react-sketchapp": "git://github.com/dabbott/react-sketchapp.git#c62a5a0f06be65bab86243073aa3e7deb26902da",
-    "react-test-renderer": "^15.6.1"
+    "react-test-renderer": "^15.6.1",
+    "snyk": "^1.316.1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "eslint-config-airbnb-base": "^11.3.2",
     "eslint-plugin-import": "^2.7.0"
-  }
+  },
+  "snyk": true
 }
