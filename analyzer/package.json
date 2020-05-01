@@ -4,8 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "snapshot":
-      "node example.js && node ../compiler/core/src/main.bs.js workspace swift workspace out"
+    "snapshot": "node example.js && node ../compiler/core/src/main.bs.js workspace swift workspace out",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
     "@babel/traverse": "^7.0.0-beta.44",
@@ -14,6 +15,8 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "babel-types": "^6.26.0",
-    "babylon": "^6.18.0"
-  }
+    "babylon": "^6.18.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
