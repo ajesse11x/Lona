@@ -54,7 +54,7 @@
   "dependencies": {
     "airbnb-prop-types": "^2.8.1",
     "aphrodite": "1.2.4",
-    "codemirror": "^5.37.0",
+    "codemirror": "^5.58.2",
     "github-markdown-css": "^2.10.0",
     "prop-types": "^15.6.1",
     "query-string-parser": "^0.1.4",
