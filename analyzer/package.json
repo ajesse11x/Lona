@@ -8,7 +8,7 @@
       "node example.js && node ../compiler/core/src/main.bs.js workspace swift workspace out"
   },
   "dependencies": {
-    "@babel/traverse": "^7.0.0-beta.44",
+    "@babel/traverse": "^7.0.0",
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
